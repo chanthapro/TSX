@@ -1,15 +1,13 @@
-import React, { FunctionComponent, useState } from 'react'
-import { Container, ButtonProps } from '@material-ui/core';
+import React, { FunctionComponent } from 'react'
 import Headers from '../Layout/Header'
-import Buttons from '../component/CustomButton'
-import CustomAppBar from '../component/CustomAppBar';
+
 
 
 
 const Home: FunctionComponent<{}> = (props) => {
 
     return (
-        <Headers children="hello" ></Headers>
+        <Headers children="hello" />
     );
 
 };
